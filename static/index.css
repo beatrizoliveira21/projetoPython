@@ -1,0 +1,40 @@
+*{
+}
+nav{
+    list-style: none;
+    background-color: #3db68e;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    margin-top: 0;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-top: 22px;
+}
+.menu li a{
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      transition:background .4s;
+}
+.menu li a:hover{
+     background-color: #BF60Af;
+}
+.logo{
+    width: 7%;
+    position: absolute;
+    left: 1154px;
+}
+.banner{
+    display: flex;
+}
+.banner img{
+    width: 70%;
+    position: absolute;
+    left: 184px;
+    margin-top: 10px;
+}
